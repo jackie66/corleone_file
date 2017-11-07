@@ -20,6 +20,9 @@
 	<!-- resources静态资源的配置 -->
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 
+    <!--本地文件系统的访问路径映射-->
+    <!--<mvc:resources mapping="/file/**" location="../../resources/" />-->
+
     <!--提供@Value读取properties文件的内容-->
     <context:property-placeholder location="classpath:application.properties"/>
 
